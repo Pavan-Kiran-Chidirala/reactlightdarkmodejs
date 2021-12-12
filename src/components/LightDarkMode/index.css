@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.container {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inner {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+}
+.light {
+  background-color: white;
+  color: black;
+}
+.dark {
+  background-color: black;
+  color: white;
+}
+.main-heading {
+  font-size: 30px;
+}
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
